@@ -3,11 +3,6 @@
 # This is a script that automate all the task for the
 # Born2beroot 42 assignment
 
-# Color output info:
-# https://stackoverflow.com/a/28938235
-# expample
-# echo -e "I ${Red}love${Yellow} Stack Overflow"
-#
 function check_success_package_install {
   if [[ $1 == 0 ]]; then
     echo -e "${Green}Installed successfully.${White}"
